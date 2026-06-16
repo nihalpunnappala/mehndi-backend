@@ -13,7 +13,20 @@ const expenseSchema = new mongoose.Schema({
     category: {
         type: String,
         required: true,
-        enum: ['Henna Powder', 'Essential Oil', 'Lemon', 'Piping Bag', 'Cling Wrap', 'Tape', 'Cover', 'Cellophane Sheet', 'Logo Sticker', 'Travel Expenses', 'Nail Liquid']
+        enum: [
+            'Henna Powder',
+            'Essential Oil',
+            'Lemon',
+            'Piping Bag',
+            'Cling Wrap',
+            'Tape',
+            'Cover',
+            'Cellophane Sheet',
+            'Logo Sticker',
+            'Stencil',
+            'Travel Expenses',
+            'Nail Liquid'
+        ]
     },
     amount: {
         type: Number,
